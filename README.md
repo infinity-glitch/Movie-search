@@ -25,8 +25,7 @@ Welcome to my first project on GitHub! This is a simple **Movie Search Applicati
 
 ## 🌟 What I Learned  
 
-- Making API calls using `fetch` in JavaScript.  
-- Handling asynchronous operations with `async` and `await`.  
+- Making API calls using `fetch` in JavaScript.    
 - Building a responsive UI with CSS.  
 - Organizing project files and uploading to GitHub.  
 
