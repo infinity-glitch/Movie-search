@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f2f5;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 95%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        header {
+            text-align: center;
+            width: 100%;
+            padding: clamp(20px, 5vw, 40px) 0;
+        }
+
+        h1 {
+            font-size: clamp(32px, 6vw, 48px);
+            color: #1a1a1a;
+            margin-bottom: clamp(15px, 3vw, 25px);
+            font-weight: bold;
+        }
+
+        .search-form {
+            background: white;
+            padding: clamp(20px, 4vw, 40px);
+            border-radius: 12px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            width: 100%;
+        }
+
+        .search-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: clamp(12px, 2vw, 15px);
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: clamp(14px, 2vw, 16px);
+            transition: all 0.3s ease;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #4a90e2;
+            box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
+        }
+
+        button {
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            padding: clamp(12px, 2vw, 15px) clamp(20px, 4vw, 30px);
+            font-size: clamp(14px, 2vw, 16px);
+            white-space: nowrap;
+        }
+
+        button:hover {
+            background-color: #357abd;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(74, 144, 226, 0.2);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        /* Mobile optimization */
+        @media (max-width: 480px) {
+            .search-container {
+                flex-direction: column;
+            }
+
+            .container {
+                width: 100%;
+                padding: 10px;
+            }
+
+            .search-form {
+                padding: 15px;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Movie Search</h1>
+        </header>
+
+        <form action="/" class="search-form" method="post">
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    name="movieSearch" 
+                    placeholder="Enter movie title..." 
+                    required
+                >
+                <input 
+                    type="text" 
+                    name="year" 
+                    placeholder="Enter year of release"
+                >
+                <button type="submit">Search</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
