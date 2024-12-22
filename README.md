@@ -27,7 +27,7 @@ Welcome to my first project on GitHub! This is a simple **Movie Search Applicati
 - **Frontend**: HTML, CSS (inline styling for dynamic pages)  
 - **Middleware**: Body-Parser for parsing form data  
 - **Modules**: `https` for making API requests  
-- **Asynchronous Handling**: Callbacks and Promises (refactorable to `async`/`await`)  
+ 
 
 ---
 
