@@ -104,11 +104,7 @@ Contributions are welcome! If you have suggestions or want to improve this proje
 
 ---
 
-## 📜 License  
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.  
-
----
 
 ## 💌 Feedback  
-If you have any questions or feedback, please open an issue or reach out to me at [your-email@example.com].
+If you have any questions or feedback, please open an issue or reach out to me at [abhishek.tyagi9166@gmail.com].
 
