@@ -46,8 +46,8 @@ Welcome to my first project on GitHub! This is a simple **Movie Search Applicati
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/<your-username>/movie-search-project.git
-   cd movie-search-project
+   git clone https://github.com/<your-username>/movie-search.git
+   cd movie-search
    ```
 
 2. Install dependencies:  
